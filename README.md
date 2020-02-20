@@ -1,7 +1,7 @@
 # Didfile
 
 Main Page:
-![image of MainPage](http://s7.picofile.com/file/8388831500/Cart.png)
+![image of MainPage](http://s7.picofile.com/file/8388831534/main.png)
 
 
 Footer:
@@ -17,4 +17,4 @@ Products:
 
 
 Product Details:
-![Image of ProductDetail](http://s7.picofile.com/file/8388831542/Products.png)
+![Image of ProductDetail](http://s6.picofile.com/file/8388831550/productDetail.png)
