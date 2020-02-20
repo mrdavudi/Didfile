@@ -1,0 +1,39 @@
+.checkout{
+    background: #fff;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.checkout .row p,
+.checkout .row h5{
+    direction: rtl;
+}
+
+.checkout .row input{
+    text-align: right;
+    direction: rtl;
+}
+
+.checkout .slider{
+    background: #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.checkout .slider div{
+    border-left: 1px solid #aaa;
+}
+.checkout .slider div:last-child{
+    border-left: none;
+}
+
+.checkout .slider a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.checkout .slider a:hover{
+    color: #aaa;
+}

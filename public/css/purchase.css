@@ -1,0 +1,50 @@
+.purchase{
+    background: #fff;
+    text-align: right;
+    max-width: 550px;
+    direction: rtl;
+}
+
+.purchase .row input{
+    text-align: right;
+    direction: rtl;
+}
+
+.purchase .slider{
+    background: #ccc;
+    padding: 15px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.purchase .slider div{
+    border-left: 1px solid #aaa;
+}
+.purchase .slider div:last-child{
+    border-left: none;
+}
+
+.purchase .slider a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.purchase .slider a:hover{
+    color: #aaa;
+}
+
+.purchase .row{
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.purchase .row:last-child{
+    border-bottom: none;
+}
+
+.purchase .row div{
+    border-left: 1px solid #ccc;
+}
+
+.purchase .row div:last-child{
+    border-left: none;
+}

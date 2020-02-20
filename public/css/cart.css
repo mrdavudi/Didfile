@@ -1,0 +1,89 @@
+.big-mode{
+    background: #fff;
+    text-align: right;
+    direction: rtl;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 5px 5px 5px -5px #000;
+    -moz-box-shadow: 5px 5px 5px -5px #000;
+    box-shadow: 5px 5px 5px -5px #000;
+}/* big mode style */
+
+.big-mode .row{
+    border: 1px solid #eee;
+    margin-left: 20px;
+    margin-right: 20px;
+}/* row in big mode */
+
+.big-mode .title{
+    background: #F7F9FA;
+    text-align: center;
+}/* title in big mode */
+
+.big-mode .row div{
+    border-left: 1px solid #ccc;
+    padding: 10px;
+}/* column in big mode */
+
+.big-mode .value div{
+    line-height: 34px;
+    border-bottom: 1px solid #ccc;
+}/* columns that contain value in big mode */
+
+.big-mode .row div a,
+.big-mode .row div p{
+    display: block;
+    margin: 0;
+}/* <a> and <p> in big mode */
+
+.big-mode a{
+    -ms-word-wrap: break-word;
+    word-wrap:break-word;
+    text-decoration: none;
+}
+
+.big-mode .row .delete{
+    border: none;
+    background: #FFDBDB;
+    font-size: 17px;
+    text-align: center;
+}/* remove border of last column in big mode */
+
+.big-mode .row .delete a{
+    color: #E95256;
+    text-decoration: none;
+}/* remove a product in big mode in big mode */
+
+.big-mode .back-to-main{
+    background: #969BA8;
+    color: #fff;
+}/* back to main page button in big mode */
+
+.big-mode .back-to-main:hover{
+    background: #A0A0A0;
+}/* back to main page button in hove in big mode */
+
+.big-mode .row .total-price span,
+.big-mode .row .purchase-price span{
+    font-size: 17px;
+}
+.big-mode .row .total-price{
+    background: #fff;
+    border: 1px solid #C0F0C1;
+    border-bottom: none;
+    text-align: right;
+    color: #777777;
+}
+
+.big-mode .row .purchase-price{
+    background: #F7FFF7;
+    border: 1px solid #C0F0C1;
+    text-align: right;
+    color: #4CAF50;
+}

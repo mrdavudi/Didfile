@@ -1,0 +1,72 @@
+body{
+    background-image: url('../../img/background3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.page_content{
+    margin-top: 100px;
+    height: 500px;
+}
+
+.page_content_Cart{
+    margin-top: 100px;
+}
+
+.user_login,
+.user_register{
+    background: #fff;
+
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    max-width: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 0;
+
+    -webkit-box-shadow: 0 5px 5px -5px #000;
+    -moz-box-shadow: 0 5px 5px -5px #000;
+    box-shadow: 0 5px 5px -5px #000;
+}/* login and register whole form */
+
+.user_login form,
+.user_register form{
+    padding: 15px;
+}/* <form> in login and register */
+
+.user_login input,
+.user_register input{
+    direction: rtl;
+}/* <input> in login and register */
+
+.user_login button,
+.user_register button{
+    font-size: 17px;
+}/* <button> in login and register */
+
+.subject_form_register h3,
+.subject_form_login h3{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}/* <h3> in login and register */
+
+.subject_form_login h3{
+    background: #8BC34A;
+}/* background of <h3> in login */
+
+.subject_form_register h3{
+    background: #00BCD4;
+}/* background of <h3> in register */

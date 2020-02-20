@@ -1,0 +1,13 @@
+.Category{
+    margin: 30px 30px 0 30px;
+    direction: rtl;
+}
+
+.editcategoryContent {
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    direction: rtl;
+
+}

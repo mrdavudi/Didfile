@@ -1,0 +1,23 @@
+.SmallTable{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.SmallTable .row{
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    background: #eee;
+}
+
+.SmallTable .row:last-child{
+    border-bottom: none;
+}
+
+.SmallTable .row div{
+    padding: 10px;
+}
+
+.SmallTable .SmallContent{
+    background: #fff;
+
+}

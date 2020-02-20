@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'B_yekan';
+    src: url('font/yekan/Yekan.eot');
+    src: url('font/yekan/Yekan.ttf');
+    src: url('font/yekan/Yekan.woff');
+}
+
+@font-face {
+    font-family: 'B_Homa';
+    src: url('font/BHoma/BHoma.eot');
+    src: url('font/BHoma/BHoma.ttf');
+    src: url('font/BHoma/BHoma.woff');
+}
+
+body {
+    font-family: 'B_yekan';
+    background-image: url('../img/backgroundContent.jpg');
+}
+
+/* Start navBar Style */
+
+.navbar {
+    border-bottom: none;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    color: red;
+!important;
+    border-bottom: 1px solid gray;
+
+    -webkit-box-shadow: 0 5px 5px -5px #000;
+    -moz-box-shadow: 0 5px 5px -5px #000;
+    box-shadow: 0 5px 5px -5px #000;
+
+    transition: background-color 400ms linear;
+}
+
+/*Change background of navbar on scroll down*/
+
+.navbar-fixed-top.scrolled .container a {
+    color: gray;
+!important;
+}
+
+/*Change color of <a> in navbar on scroll down*/
+
+.navbar-fixed-top.scrolled .container .logo {
+    background: gray;
+    -webkit-border-radius: 15px 0 15px 0;
+    -moz-border-radius: 15px 0 15px 0;
+    border-radius: 15px 0 15px 0;
+    padding: 5px;
+}
+
+/* change background of logo when scrolling */
+
+.navbar-inverse .container li a {
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+!important;
+}
+
+/* <a> in normal(no hover) mode*/
+
+.navbar-inverse .container li a:hover {
+    color: #60BC57;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+/* <a> in hover mode*/
+
+/*Sart Side navigation*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav ul li a {
+    font-size: 17px;
+    color: #00BCD4;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.sidenav ul li a:hover {
+    margin-right: 40px;
+}
+
+.sidenav div {
+    margin-bottom: 4px;
+}
+
+.sidenav a:hover {
+    color: #818181;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 18px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*End side navigation*/
+/* End navBar style */
+
+/* Start Cart Style */
+
+.cart {
+    margin-right: 20px;
+}
+
+/* cart in big mode */
+
+.cart a .fa-shopping-cart {
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.cart a .fa-shopping-cart:hover {
+    color: gray;
+}
+
+.cart a .badge {
+    background: #53CD59;
+    width: 20px;
+    line-height: 7px;
+    padding: 5px;
+}
+
+/* End Cart Style */
+
+span {
+    font-size: 19px;
+}
+
+/* <span> in whole of project */
+
+/* Start Overlay Or header */
+#custom-search-input {
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input {
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search {
+    font-size: 23px;
+}
+
+/* End Overlay Or header */
+
+/* Start Product Box(Content) style */
+.text-header h2 {
+
+    direction: rtl;
+    border-bottom: 4px solid transparent;
+    border-image: url(../img/border.png) 25 25 round;
+    border-image-slice: 1;
+
+    font-family: 'B_Homa';
+    max-width: 200px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.product_box_Column {
+    background: #fff;
+    max-width: 310px;
+    max-height: 360px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-bottom: 20px;
+    float: right;
+
+    box-shadow: 5px 5px 5px transparent;
+    -webkit-transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;
+    -ms-transition: box-shadow 1s;
+    -o-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+}
+
+.product_box_Column:hover {
+    box-shadow: 5px 5px 5px #aaa;
+}
+
+/* End Product Box(Content) style */
+
+/* Start Footer Style */
+.footer {
+    background: #252C35;
+    min-height: 400px;
+    color: #E5E8ED;
+}
+
+/* footer of website */
+
+.footer h3 {
+    text-align: right;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+/* <h3> in footer */
+
+.footer .social_network i {
+    color: #01CF80;
+    font-size: 25px;
+    margin-left: 20px;
+
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+
+}
+
+/* <i> in footer */
+
+.footer .social_network i:hover {
+    color: #eeeeee;
+}
+
+.footer p {
+    text-align: justify;
+    direction: rtl;
+}
+
+/* <p> in footer */
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    line-height: 30px;
+    color: #ccc;
+
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+
+}
+
+/* <a> in footer */
+
+.footer a:hover {
+    color: #01CF80;
+}
+
+/* mouse move on <a> in footer */
+
+.footer img {
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+/* <img> in footer */
+
+/* End Footer Style */
+
+
+
+

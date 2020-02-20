@@ -1,0 +1,41 @@
+.Table .row {
+    padding: 10px;
+    background: #fff;
+    margin: 0;
+}
+
+.Table .tableContent {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.Table .tableContent:last-child {
+    border-bottom: 1px solid black;
+}
+
+.Table .tableTitle {
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.Table .tableContent a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 12px;
+    margin-top: 15px;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+.Table .tableContent:hover a {
+    visibility: visible;
+}
+
+.Table .tableContent:nth-child(odd) {
+    background: #fff;
+}
+
+.Table .tableContent:nth-child(even) {
+    background: #eee;
+}
