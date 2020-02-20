@@ -1,4 +1,4 @@
-# Didfile
+# Didfile (Didactic File)
 
 Main Page:
 ![image of MainPage](http://s7.picofile.com/file/8388831534/main.png)
