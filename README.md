@@ -1,7 +1,14 @@
 # Didfile (Didactic File)
 
-این وبسایت با استفاده از زبان php  و کتابخانه laravel طراحی شده است. 
-This website is designed using php language and laravel library.
+این وبسایت با استفاده از زبان php  و کتابخانه laravel طراحی شده است. موارد استفاده شده در آن به شرح زیر است: 
+This website is designed using php language and laravel library. The items used in it are as follows:
+
+۱- php 
+۲- laravel 
+۳- Bootstrap 
+۴- Html 
+۵- CSS 
+۶- Javascript  
 
 Main Page:
 ![image of MainPage](http://s7.picofile.com/file/8388831534/main.png)
