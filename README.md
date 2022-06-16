@@ -1,5 +1,8 @@
 # Didfile (Didactic File)
 
+این وبسایت با استفاده از زبان php  و کتابخانه laravel طراحی شده است. 
+This website is designed using php language and laravel library.
+
 Main Page:
 ![image of MainPage](http://s7.picofile.com/file/8388831534/main.png)
 
